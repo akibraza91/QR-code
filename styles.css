@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@100..900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+body
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%)
+}
+.container
+{
+    position: relative;
+    width: 325px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1em;
+}
+.inner-container
+{
+    position: relative;
+    width: 100%;
+    padding: 1em;
+}
+.top-container
+{
+    position: relative;
+    width: 100%;
+}
+.top-container img
+{
+    width: 100%;
+    border-radius: 0.5em;
+}
+.bottom-container
+{
+    position: relative;
+    width: 100%;
+    margin-top: 1.5em;
+}
+.bottom-container h2
+{
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.bottom-container p
+{
+    margin-top: 1em;
+    text-align: center;
+    padding-bottom: 1.5em;
+    font-size: 1.1em;
+    color: hsl(220, 15%, 55%)
+}
+
+@media (max-width: 375px){
+    .container{
+        width: 275px;
+    }
+}
